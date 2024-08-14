@@ -4,11 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--js-->
-    <script src="./script.js"></script> 
+    <script type="module" src="./script.js" defer></script> 
     <title>Sistema gestion alumnos</title>
 </head>
 <body>
-    <h1>Urquiza Julio Cesar</h1>
-    <p>El proyecto va a ser desarrollado como un sistema que sirva como para la gestion de alumnos, profesores y administradores de una universidad online</p>
+    <main>
+        <h1>altas bajas y modificaciones</h1>
+
+        <section">
+            <h2>login</h2>
+            <input id="usuario" type="text">
+            <input id="contrasenia" type="text">
+            <button id="btnIngresar">ingresar</button>
+            <h3 id="mensajeError"></h3>
+        </section>
+    </main>
 </body>
 </html>
